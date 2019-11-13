@@ -1,0 +1,1 @@
+<template name="4e623ae7"><view class="_view container {{ h[ 0 ].rcl }}"><web-view class="_web-view" webview-styles="{{ h[ 1 ][ 'webview-styles' ] }}" src="{{ h[ 1 ][ 'src' ] }}"></web-view></view></template>

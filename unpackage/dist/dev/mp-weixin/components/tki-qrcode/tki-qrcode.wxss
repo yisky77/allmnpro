@@ -1,0 +1,11 @@
+
+.tki-qrcode {
+  position: relative;
+}
+.tki-qrcode-canvas {
+  position: fixed;
+  top: -99999rpx;
+  left: -99999rpx;
+  z-index: -99999;
+}
+

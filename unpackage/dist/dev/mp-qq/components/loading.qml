@@ -1,0 +1,1 @@
+<view><view class="cu-load load-modal"><text>授权中</text></view></view>

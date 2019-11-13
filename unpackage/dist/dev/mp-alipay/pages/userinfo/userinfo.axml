@@ -1,0 +1,2 @@
+<template name="d8cae90c"><view class="_view {{ h[ 0 ].rcl }}"><view class="_view user-section"><image class="_image bg" src="/static/user-bg.jpg"></image><text class="_text bg-upload-btn yticon icon-paizhao"></text><view class="_view portrait-box"><image class="_image portrait" src="{{ h[ 5 ][ 'src' ] }}"></image><text class="_text pt-upload-btn yticon icon-paizhao"></text></view></view></view></template>
+<template is="d8cae90c" data="{{ ...$root['0'], $root }}"/>

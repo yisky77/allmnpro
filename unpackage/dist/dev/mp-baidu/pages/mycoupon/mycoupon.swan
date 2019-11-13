@@ -1,0 +1,2 @@
+<import src="./mycoupon.vue.swan" />
+    <template is="7e7c8f9a" data="{{{ ...$root['0'], $root }}}"/>

@@ -1,0 +1,2 @@
+<import src="./category.vue.ttml" />
+    <template is="cbc5fdcc" data="{{ ...$root['0'], $root }}"/>

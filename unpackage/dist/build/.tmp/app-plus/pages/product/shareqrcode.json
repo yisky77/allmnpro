@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "生成赚钱海报",
+  "usingComponents": {
+    "wm-poster": "/components/wm-poster/wm-poster",
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

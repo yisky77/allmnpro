@@ -1,0 +1,1 @@
+<view class="content"><wm-poster vue-id="1" imgSrc="{{content.imgSrc}}" QrSrc="{{content.QrSrc}}" Title="{{content.Title}}" PriceTxt="{{content.PriceTxt}}" OriginalTxt="{{content.OriginalTxt}}" Referrer="{{content.Referrer}}" data-event-opts="{{[['^save',[['save']]]]}}" bind:save="__e" bind:__l="__l"></wm-poster></view>

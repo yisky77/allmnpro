@@ -1,0 +1,22 @@
+{
+  "setting": {
+    "minified": true,
+    "postcss": true,
+    "es6": true
+  },
+  "appid": "tt1c606add834a822e",
+  "projectname": "贝贝商城",
+  "condition": {
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "",
+          "path": "",
+          "query": "",
+          "id": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+<import src="./feedback.vue.swan" />
+    <template is="3ea524f4" data="{{{ ...$root['0'], $root }}}"/>

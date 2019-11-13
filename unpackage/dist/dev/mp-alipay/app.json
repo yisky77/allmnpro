@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/product/searchlist",
+    "pages/set/set",
+    "pages/webview/index",
+    "pages/commentlist/index",
+    "pages/user/help",
+    "pages/user/feedback",
+    "pages/order/orderDetail",
+    "pages/category/hot",
+    "pages/brandDetail/topiclist",
+    "pages/brandDetail/comment",
+    "pages/brandDetail/topicDetail",
+    "pages/brandDetail/groupbuy",
+    "pages/brandDetail/brand",
+    "pages/brandDetail/brandDetail",
+    "pages/order/comment",
+    "pages/userinfo/userinfo",
+    "pages/cart/cart",
+    "pages/public/login",
+    "pages/public/reg",
+    "pages/user/user",
+    "pages/detail/detail",
+    "pages/order/order",
+    "pages/money/money",
+    "pages/mystore/mystore",
+    "pages/mycoloect/mycoloect",
+    "pages/tuiguang/index",
+    "pages/mycoupon/couponlist",
+    "pages/mycoupon/mycoupon",
+    "pages/order/createOrder",
+    "pages/address/address",
+    "pages/address/addressManage",
+    "pages/money/pay",
+    "pages/money/paySuccess",
+    "pages/notice/notice",
+    "pages/category/category",
+    "pages/product/list"
+  ],
+  "window": {
+    "titleBarColor": "#FFFFFF",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "textColor": "#C0C4CC",
+    "selectedColor": "#fa436a",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/tab-home.png",
+        "activeIcon": "static/tab-home-current.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "name": "分类",
+        "icon": "static/tab-cate.png",
+        "activeIcon": "static/tab-cate-current.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "name": "购物车",
+        "icon": "static/tab-cart.png",
+        "activeIcon": "static/tab-cart-current.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "name": "我的",
+        "icon": "static/tab-my.png",
+        "activeIcon": "static/tab-my-current.png"
+      }
+    ]
+  }
+}

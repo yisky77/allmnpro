@@ -1,0 +1,2 @@
+<import src="./mycoloect.vue.swan" />
+    <template is="e3fd5edc" data="{{{ ...$root['0'], $root }}}"/>

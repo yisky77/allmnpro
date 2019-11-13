@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.a-groupon {
+  width: 750rpx;
+  height: auto;
+  overflow: hidden;
+}
+.a-groupon .b .item {
+  border-bottom: 1px solid #d9d9d9;
+  margin: 0 20rpx;
+  height: 244rpx;
+  width: 710rpx;
+}
+.a-groupon .b .img {
+  margin-top: 12rpx;
+  margin-right: 12rpx;
+  float: left;
+  width: 220rpx;
+  height: 220rpx;
+}
+.a-groupon .b .right {
+  float: left;
+  height: 244rpx;
+  width: 476rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+.a-groupon .b .text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  height: 244rpx;
+  width: 476rpx;
+}
+.a-groupon .b .name {
+  float: left;
+  display: block;
+  color: #333;
+  line-height: 50rpx;
+  font-size: 30rpx;
+}
+.a-groupon .capsule-tag {
+  float: right;
+  padding-right: 0rpx;
+  padding-top: 8rpx;
+}
+.a-groupon .capsule-tag text {
+    font-size: 26rpx;
+    background: #fa436a;
+    margin-left: 2rpx;
+    padding: 5rpx 15rpx;
+    color: #fff;
+}
+.a-groupon .b .desc {
+  width: 476rpx;
+  display: block;
+  color: #999;
+  line-height: 50rpx;
+  font-size: 25rpx;
+}
+.a-groupon .b .price {
+  width: 476rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ab956d;
+  line-height: 50rpx;
+  font-size: 33rpx;
+}
+.a-groupon .b .counterPrice {
+  text-decoration: line-through;
+  font-size: 28rpx;
+  color: #999;
+}
+.a-groupon .b .retailPrice {
+  margin-left: 30rpx;
+  font-size: 28rpx;
+  color: #a78845;
+}
+

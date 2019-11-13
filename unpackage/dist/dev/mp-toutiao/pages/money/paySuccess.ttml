@@ -1,0 +1,2 @@
+<import src="./paySuccess.vue.ttml" />
+    <template is="6c96ff5f" data="{{ ...$root['0'], $root }}"/>

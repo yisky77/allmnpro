@@ -1,0 +1,2 @@
+<import src="./mycoloect.vue.ttml" />
+    <template is="e3fd5edc" data="{{ ...$root['0'], $root }}"/>

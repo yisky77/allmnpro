@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.fs120 {
+  font-size: 50rpx !important;
+  color: #fc4f4b;
+}
+.mt5 {
+  margin-top: 10rpx;
+}
+.fl {
+  float: left;
+}
+.clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.pd20 {
+  background: #fc4f4b;
+  padding: 0 0 10rpx;
+}
+.bannertop {
+  width: 95%;
+  margin: 0 auto 20rpx;
+  border-bottom: 1rpx solid #f28474;
+  padding: 20rpx 0 30rpx;
+}
+.bannertop .headerbg {
+    border-radius: 100%;
+    width: 150rpx;
+    height: 150rpx;
+    float: left;
+}
+.bannertop .bannertxt {
+    color: #fff;
+    font-size: 35rpx;
+    line-height: 60rpx;
+    margin-left: 30rpx;
+    position: relative;
+    top: 20rpx;
+}
+.tixian {
+  width: 95%;
+  margin: 20rpx auto;
+  color: #fff;
+  font-size: 30rpx;
+  line-height: 40rpx;
+}
+.tixian .btn {
+    float: right;
+    padding: 0 25rpx;
+    color: #fff;
+    border-radius: 40rpx;
+    border: 1px solid #fff;
+    margin-top: 25rpx;
+    font-size: 24rpx;
+}
+.fffcolor {
+  background: #fff;
+  width: 95%;
+  margin: 20rpx auto;
+}
+.fxcontent {
+  background: #f7f7f7;
+}
+.fxcontent .li {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 0rpx 0 20rpx;
+    font-size: 24rpx;
+    margin: 20rpx auto 0;
+}
+.fxcontent .li .arc {
+      border-radius: 100%;
+      width: 100rpx;
+      height: 100rpx;
+      margin: 0 auto;
+}
+.fxcontent .li text {
+      font-size: 24rpx;
+}
+.fxcontent .li .red {
+      color: #fc4f4b;
+}
+.fs {
+  font-size: 40rpx;
+  line-height: 60rpx;
+  font-weight: bold;
+}
+

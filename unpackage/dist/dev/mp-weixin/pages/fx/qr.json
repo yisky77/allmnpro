@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "推广二维码",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "wm-poster": "/components/wm-poster/wm-poster"
+  }
+}

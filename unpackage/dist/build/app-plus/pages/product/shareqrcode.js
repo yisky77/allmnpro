@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\nbody, .",[1],"content { background: #fff; }\n",],undefined,{path:"./pages/product/shareqrcode.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/product/shareqrcode.wxml') } }));

@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.padding-xl {
+  padding: 50rpx;
+}
+.cu-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1110;
+  opacity: 0;
+  outline: 0;
+  text-align: center;
+  -ms-transform: scale(1.185);
+  -webkit-transform: scale(1.185);
+          transform: scale(1.185);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 2000rpx;
+          perspective: 2000rpx;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  pointer-events: none;
+}
+.cu-modal::before {
+  content: "\200B";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.cu-modal.show {
+  opacity: 1;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  overflow-x: hidden;
+  overflow-y: auto;
+  pointer-events: auto;
+}
+.cu-dialog {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  width: 680rpx;
+  max-width: 100%;
+  background-color: #f8f8f8;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.cu-modal.bottom-modal::before {
+  vertical-align: bottom;
+}
+.cu-modal.bottom-modal .cu-dialog {
+  width: 100%;
+  border-radius: 0;
+}
+.cu-modal.bottom-modal {
+  margin-bottom: -1000rpx;
+}
+.cu-modal.bottom-modal.show {
+  margin-bottom: 0;
+}
+.cu-modal.drawer-modal {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.cu-modal.drawer-modal .cu-dialog {
+  height: 100%;
+  min-width: 200rpx;
+  border-radius: 0;
+  margin: initial;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.cu-modal.drawer-modal.justify-start .cu-dialog {
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+.cu-modal.drawer-modal.justify-end .cu-dialog {
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+}
+.cu-modal.drawer-modal.show .cu-dialog {
+  -webkit-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+          transform: translateX(0%);
+}
+.cu-modal .cu-dialog > .cu-bar:first-child .action {
+  min-width: 100rpx;
+  margin-right: 0;
+  min-height: 100rpx;
+}
+.cu-btn {
+  width: 95%;
+  margin: 0 auto;
+  line-height: 60rpx;
+}
+.cu-btn {
+  position: relative;
+  border: 0rpx;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  font-size: 28rpx;
+  height: 64rpx;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  overflow: visible;
+  margin-left: initial;
+  -webkit-transform: translate(0rpx, 0rpx);
+  -ms-transform: translate(0rpx, 0rpx);
+  transform: translate(0rpx, 0rpx);
+  margin-right: initial;
+}
+.bg-green {
+  background-color: #39b54a;
+  color: #ffffff;
+}
+

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "type": "transparent"
+  },
+  "usingComponents": {
+    "sharepage": "/pages/product/share",
+    "auth": "/components/auth",
+    "u-parse": "/components/gaoyia-parse/parse"
+  }
+}

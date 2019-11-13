@@ -1,0 +1,6 @@
+
+.saveImg{
+	width:80%;height:80rpx;position: absolute;bottom:20rpx;left:0;right:0;margin:auto;background: #fa436a;border-radius: 50rpx;text-align: center;line-height: 80rpx;
+	color:#fff;font-size: 24rpx;
+}
+

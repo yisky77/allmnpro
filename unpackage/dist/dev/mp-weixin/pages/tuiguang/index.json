@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "share": "/pages/product/share",
+    "auth": "/components/auth"
+  }
+}

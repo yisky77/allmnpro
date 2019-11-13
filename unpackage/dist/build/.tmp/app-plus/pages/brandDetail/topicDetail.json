@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "专题精选",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-parse": "/components/gaoyia-parse/parse"
+  }
+}

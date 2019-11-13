@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.fl {
+  float: left;
+}
+.fs80 {
+  font-size: 30rpx !important;
+  color: #fc4f4b;
+}
+.clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.pd20 {
+  background: #fff;
+  padding: 20rpx 0 10rpx;
+}
+.money {
+  font-size: 30rpx;
+  color: #434343;
+}
+.bannertop {
+  width: 95%;
+  margin: 0 auto 20rpx;
+  border-bottom: 1rpx solid #f28474;
+  padding: 20rpx 0 30rpx;
+}
+.bannertop .headerbg {
+    border-radius: 100%;
+    width: 150rpx;
+    height: 150rpx;
+    float: left;
+}
+.bannertop .bannertxt {
+    color: #fff;
+    font-size: 35rpx;
+    line-height: 60rpx;
+    margin-left: 30rpx;
+    position: relative;
+    top: 20rpx;
+}
+.fangfa {
+  font-size: 30rpx;
+  color: #434343;
+  padding: 20rpx;
+}
+.bi {
+  width: 10%;
+  float: left;
+  text-align: center;
+  color: #f25a70;
+  font-weight: bold;
+  line-height: 80rpx;
+  font-size: 40rpx;
+}
+.withdrawcon {
+  border-top: 2rpx solid #f6f6f6;
+  padding: 20rpx 0;
+  background: #fff;
+}
+.inputcon {
+  width: 75%;
+  height: 80rpx;
+  float: left;
+}
+.tixian {
+  width: 95%;
+  margin: 20rpx auto;
+  color: #fff;
+  font-size: 30rpx;
+  line-height: 40rpx;
+}
+.tixian .btn {
+    float: right;
+    padding: 0 25rpx;
+    color: #fff;
+    border-radius: 40rpx;
+    border: 1px solid #fff;
+    margin-top: 25rpx;
+}
+.sub {
+  width: 80%;
+  height: 35px;
+  background: #fc4f4b;
+  text-align: center;
+  color: #fff;
+  font-size: 24rpx;
+  margin: 20rpx auto;
+  border-radius: 30px;
+  line-height: 70rpx;
+}
+.fffcolor {
+  background: #fff;
+  width: 100%;
+  margin: 20rpx auto;
+}
+.fxcontent {
+  background: #f7f7f7;
+}
+.fxcontent .li {
+    float: left;
+    padding: 0 20rpx;
+    text-align: center;
+    font-size: 24rpx;
+    margin-bottom: 20rpx;
+    border: 2rpx solid #e6e6e6;
+    border-radius: 40rpx;
+    line-height: 60rpx;
+    margin-left: 10%;
+}
+.fxcontent .li .arc {
+      width: 50rpx;
+      height: 50rpx;
+      float: left;
+}
+.fxcontent .li text {
+      font-size: 24rpx;
+      color: #51514f;
+}
+.fxcontent .li .red {
+      color: #fc4f4b;
+}
+.fs12 {
+  width: 20%;
+  font-size: 26rpx;
+  color: #434343;
+}
+.fs {
+  font-size: 40rpx;
+  line-height: 60rpx;
+  font-weight: bold;
+  color: #f25a70;
+}
+.inputli.active {
+  border: 1px solid #f25a70;
+}
+

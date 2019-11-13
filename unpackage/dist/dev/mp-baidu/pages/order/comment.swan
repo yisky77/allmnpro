@@ -1,0 +1,2 @@
+<import src="./comment.vue.swan" />
+    <template is="70db976e" data="{{{ ...$root['0'], $root }}}"/>

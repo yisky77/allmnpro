@@ -1,0 +1,2 @@
+<import src="./addressManage.vue.swan" />
+    <template is="28d64f6e" data="{{{ ...$root['0'], $root }}}"/>

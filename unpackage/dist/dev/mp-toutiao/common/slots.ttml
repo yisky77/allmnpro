@@ -1,0 +1,5 @@
+
+<template name="default_0" parent="240234ba"><button class="_button share-btn" open-type="share">分享</button></template>
+
+<template name="default_1" parent="240234ba"><button class="_button share-btn" open-type="getPhoneNumber">绑定手机</button></template>
+
